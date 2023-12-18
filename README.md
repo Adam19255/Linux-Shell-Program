@@ -24,8 +24,13 @@ The shell is a program that takes commands from the user and executes them by in
 
 ## Input Examples
 **Execute a command:** `ls -l`
+
 **Set an environment variable:** `VAR=Hello`
+
 **Display an environment variable:** `echo VAR`
+
 **Use multiple pipes:** `ls -l | grep ".txt" | wc -l`
+
 **Redirect output:** `ls -l > output.txt`
+
 **Run a command in the background:** `sleep 10 &`
